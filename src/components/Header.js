@@ -1,7 +1,7 @@
 import React from 'react'
 import SunIcon from './Icons/SunIcon'
 import MoonIcon from './Icons/MoonIcon'
-import avatar from '../assets/avatar.jpeg'
+import avatar from '../assets/avatar.png'
 import '../css/skeleton.css'
 import '../css/normalize.css'
 import '../css/components.css'
@@ -21,7 +21,7 @@ function Header() {
         <img src={avatar} alt="avatar" />
         &nbsp;&nbsp;&nbsp;
         <h2>
-          <b>Sagnik. </b>
+          <b>London Centre of International Studies. </b>
         </h2>
       </div>
       <button className="switch-theme-button" onClick={handleSwitchTheme}>
